@@ -1,156 +1,62 @@
-README.md
+# Resonant Stability Signal Analysis
 
+## 📌 Overview
+This project provides an advanced analysis of **resonant signal stability** using perturbation, recurrence quantification, and coupling synchronization. It is designed for researchers and engineers working with **chaotic time series, nonlinear dynamics, and signal stability analysis**.
 
----
+## 🔥 Features
+✅ **Perturbation Analysis** - Measures stability under noise influence  
+✅ **Recurrence Quantification Analysis (RQA)** - Examines system stability and entropy  
+✅ **Coupling Synchronization** - Investigates phase locking and energy transfer  
+✅ **Interactive Data Visualization** - Real-time charts for better insight  
+✅ **Modular & Scalable** - Clean code structure for extensibility  
 
-Resonant Signal Stability Analysis
+## 📂 Project Structure
 
-A comprehensive stability analysis tool for resonant signals, integrating perturbation response, recurrence quantification, and coupled oscillator dynamics.
+📂 src/ │── 📄 App.tsx              # Main React entry point │── 📂 components/          # UI components │── 📂 analysis/            # Signal processing functions │── 📂 datasets/            # CSV datasets │── 📂 utils/               # Helper functions │── 📄 package.json         # Dependencies & scripts │── 📄 README.md            # Documentation │── 📄 LICENSE              # MIT License
 
-🔍 Overview
+## 🚀 Installation
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/silent-stones/resonant-stability-analysis.git
+   cd resonant-stability-analysis
 
-This tool analyzes synthetic resonant signals to evaluate:
-
-1. Perturbation Stability – How signals respond to increasing noise levels.
-
-
-2. Recurrence Analysis – Detects periodic structures and predictability.
-
-
-3. Coupling Synchronization – Examines how signals interact when coupled with external forces.
-
-
-
-The framework is designed for scientific research, chaos theory exploration, and AI-driven stability predictions. 🧠📊
-
-
----
-
-🚀 Features
-
-✔ Multi-Level Perturbation Analysis:
-
-Tests stability under varying noise intensities.
-
-Tracks signal coherence and amplitude deviations.
-
-
-✔ Recurrence Quantification Analysis (RQA):
-
-Identifies recurrence patterns.
-
-Measures determinism, entropy, and predictability.
-
-
-✔ Adaptive Coupling Simulation:
-
-Simulates real-world oscillator interactions with controlled coupling strengths.
-
-Evaluates phase-locking and energy redistribution.
-
-
-✔ Dynamic Data Visualization:
-
-Time-series charts for direct signal tracking.
-
-Scatter and line graphs to display phase coherence, recurrence metrics, and synchronization trends.
-
-
-
----
-
-🛠 Installation
-
-1️⃣ Clone the Repository
-
-git clone https://github.com/YOUR_USERNAME/Resonant-Signal-Analysis.git
-cd Resonant-Signal-Analysis
-
-2️⃣ Install Dependencies
-
-Make sure you have Node.js and npm installed. Then, install the required libraries:
+2. Install dependencies
 
 npm install
 
-3️⃣ Run the Application
+
+3. Run the project
 
 npm start
 
-The interface will be available at http://localhost:3000/.
 
 
----
+📊 Usage
 
-📊 How It Works
-
-1️⃣ Perturbation Analysis
-
-Adds controlled noise to the signal.
-
-Analyzes phase coherence and amplitude stability.
-
-Identifies breakdown points and recovery trends.
+1. Upload your time-series dataset (CSV)
 
 
-2️⃣ Recurrence Quantification
-
-Detects repeating signal structures.
-
-Calculates recurrence rate, determinism, and entropy.
-
-Measures predictability and periodicity.
+2. Choose the analysis type (Perturbation, Recurrence, or Coupling)
 
 
-3️⃣ Coupling Synchronization
+3. Visualize results in real-time graphs
 
-Simulates external force interactions.
 
-Measures phase-locking effects and energy shifts.
-
-Helps understand resonance behavior in dynamic systems.
+4. Export findings for further research
 
 
 
----
+🛠 Technologies Used
 
-📈 Example Output
+React + TypeScript - Frontend framework
 
-> 🎯 Goal: Predict when systems become unstable and how they recover.
+Recharts - Data visualization
 
+PapaParse - CSV Parsing
 
-
-
----
-
-🌍 Potential Applications
-
-🔹 Physics: Resonance and stability in dynamical systems.
-🔹 Engineering: Signal reliability in communication networks.
-🔹 Neuroscience: EEG/brainwave coherence and phase locking.
-🔹 Finance: Pattern recognition in stock market fluctuations.
-🔹 AI Research: Noise robustness in neural networks.
+Numerical Methods - Signal analysis algorithms
 
 
----
+📝 License
 
-📢 Contributing
-
-💡 Want to improve the project? Feel free to fork, contribute, and suggest enhancements!
-Pull requests are welcome. 🚀
-
-
----
-
-📜 License
-
-MIT License – Free to use and modify.
-
-
----
-
-🔗 Created by: [Richard Alexander Tune]
-📩 Contact: [silentstonesyt@gmail.com]
-🌐 GitHub: [silent-stones]
-
-
-
+This project is licensed under the MIT License - Free to use and modify
