@@ -11,7 +11,6 @@ This project provides an advanced analysis of **resonant signal stability** usin
 ✅ **Modular & Scalable** - Clean code structure for extensibility  
 
 ## 📂 Project Structure
-
 📂 src/ │── 📄 App.tsx              # Main React entry point │── 📂 components/          # UI components │── 📂 analysis/            # Signal processing functions │── 📂 datasets/            # CSV datasets │── 📂 utils/               # Helper functions │── 📄 package.json         # Dependencies & scripts │── 📄 README.md            # Documentation │── 📄 LICENSE              # MIT License
 
 ## 🚀 Installation
